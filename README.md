@@ -36,8 +36,9 @@ If this happens you need to connect by the above (1080:127.0.0.1:8888<--change t
 
 `jupyter lab --no-browser --port 1234`
 
-The create toy example needs a different setup
 ______________________________________________
+
+The createToy.ipynb example needs a different setup!!!
 
 `source startROOT.sh`
 
