@@ -24,7 +24,7 @@ To get the right environment
 
 Start the jupyter notebook
 
-`jupyter notebook --no-browser lab`
+`jupyter lab --no-browser`
 
 Look for the token.
 
@@ -36,4 +36,9 @@ If this happens you need to connect by the above (1080:127.0.0.1:8888<--change t
 
 `jupyter lab --no-browser --port 1234`
 
+The create toy example needs a different setup
+______________________________________________
 
+`source startROOT.sh`
+
+and pick the python2 environment!!
