@@ -14,15 +14,12 @@ Connect to your machine with a tunnel:
 `ssh -i A_DESY.pem -S./tmp  -L 1080:127.0.0.1:8888 user@machine`
 
 To get the right environment
+
 * on AWS (Amazon)
 
-`source /home/ubuntu/anaconda3/etc/profile.d/conda.sh`
+`cd DESY_ML_PyTorch`
 
-`conda activate pytorch_p27`
-
-`source /home/ubuntu/root/bin/thisroot.sh`
-
-Start the jupyter notebook
+`source startROOT.sh`
 
 `jupyter lab --no-browser`
 
@@ -36,10 +33,10 @@ If this happens you need to connect by the above (1080:127.0.0.1:8888<--change t
 
 `jupyter lab --no-browser --port 1234`
 
+Navigate to the files
+
+Pick the "conda_pytorch_p27" environment for all except the create toy example below.
+
 ______________________________________________
 
-The createToy.ipynb example needs a different setup!!!
-
-`source startROOT.sh`
-
-and pick the python2 environment!!
+The createToy.ipynb example needs a different setup!! Pick the python2 environment!!
