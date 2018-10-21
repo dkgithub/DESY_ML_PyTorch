@@ -1,5 +1,6 @@
 # DESY_ML_PyTorch
 
+
 These are tutorials held at DESY for HEP (and Astroparticle) physicists
 
 To get the tutorials:
@@ -11,6 +12,15 @@ Connect to your machine with a tunnel:
 `mkdir tmp`
 
 `ssh -i A_DESY.pem -S./tmp  -L 1080:127.0.0.1:8888 user@machine`
+
+To get the right environment
+* on AWS (Amazon)
+
+`source /home/ubuntu/anaconda3/etc/profile.d/conda.sh`
+
+`conda activate pytorch_p27`
+
+`source /home/ubuntu/root/bin/thisroot.sh`
 
 Start the jupyter notebook
 
