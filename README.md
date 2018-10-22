@@ -39,4 +39,4 @@ Pick the "conda_pytorch_p27" environment for all except the create toy example b
 
 ______________________________________________
 
-The createToy.ipynb example needs a different setup!! Pick the python2 environment!!
+The createToy.ipynb example needs a different setup!! Pick the _python2_ environment!!
