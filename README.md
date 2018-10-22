@@ -21,6 +21,11 @@ To get the right environment
 
 `source startROOT.sh`
 
+We need some extra software
+`pip install sklearn`
+
+
+
 `jupyter lab --no-browser`
 
 Look for the token.
