@@ -22,6 +22,7 @@ To get the right environment
 `source startROOT.sh`
 
 We need some extra software
+
 `pip install sklearn`
 
 
@@ -42,6 +43,8 @@ Navigate to the files
 
 Pick the "**conda_pytorch_p27**" environment for all except the create toy example below.
 
+
+CTRL-C CTRL-C  to shutdown jupyter
 ______________________________________________
 
 The createToy.ipynb example needs a different setup!! Pick the "**python2**" environment!!
