@@ -35,8 +35,8 @@ If this happens you need to connect by the above (1080:127.0.0.1:8888<--change t
 
 Navigate to the files
 
-Pick the "conda_pytorch_p27" environment for all except the create toy example below.
+Pick the "**conda_pytorch_p27**" environment for all except the create toy example below.
 
 ______________________________________________
 
-The createToy.ipynb example needs a different setup!! Pick the _python2_ environment!!
+The createToy.ipynb example needs a different setup!! Pick the "**python2**" environment!!
